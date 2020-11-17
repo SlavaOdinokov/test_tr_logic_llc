@@ -1,24 +1,18 @@
 # test_tr_logic_llc
 
-## Project setup
-```
-npm install
-```
+## SPA книга контактов на Vue/Vuex.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+* **Страница 1 - Список контактов**
+* **Страница 2 - Контактная информация выбранного контакта**
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#### Функционал страницы 1
+* Добавление контакта
+* Удаление контакта (с подтверждением)
+* Переход на контактную информацию контакта
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ 
+#### Функционал страницы 2
+* Добавление полей в виде - "название : значение"
+* Удаление полей (с подтверждением)
+* Редактирование полей с возможностью отмены (отмена с подтверждением)
+* Отмена последнего внесенного изменения "Шаг назад"
